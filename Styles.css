@@ -15,9 +15,11 @@ h1{
 h2{
 	text-align:center;
 }
+
 h3{
 	text-align:left;
 }
+
 h5{
 	font-size: 25px;
 	text-align: center;
@@ -48,18 +50,21 @@ ul.a
 	color:#2A1B3D;
 	font-size: 20px;
 }
+
 ul.b
 {
 	list-style-type:square;
 	color:#2A1B3D;
 	font-size: 20px;
 }
+
 ul.c
 {
 	list-style-type:disc;
 	color:#2A1B3D;
 	font-size: 20px;
 }
+
 ul.d
 {
 	list-style-type:circle;
@@ -125,27 +130,32 @@ a:hover{
 	color: black;
   }
 
-  .topnav a.active {
+.topnav a.active {
 	background-color:#5C2018;
 	color: white;
   }
-  #myInfo
+
+#myInfo
   {
 	font-size: 50px;
 	text-align: center;
 	font-style:oblique ;
 	color:#78244C;
   }
-  #edu{
+
+#edu{
 	text-align:left;
 	font-size: 35px;
 	color:black;
   }
-  #myInformation
+
+#myInformation
   {
 	text-align: left;
   }
+
 ul{
 	text-align:left;
 }
+
 
