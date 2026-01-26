@@ -17,7 +17,6 @@
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -29,7 +28,7 @@
     <section id="home" class="hero">
         <div class="hero-glow hero-glow-left"></div>
         <div class="hero-glow hero-glow-right"></div>
-        <div class="hero-content">
+        <div class="hero-content"><br><br>
             <p class="hero-greeting">Hello, I'm</p>
             <h1 class="hero-title gradient-text">Shireen Kachroo</h1>
             <p class="hero-tagline-alt">Data Analytics & Machine Learning Enthusiast</p>
@@ -47,75 +46,24 @@
     <section id="about" class="section">
         <div class="container">
             <h2 class="section-title gradient-text">About Me</h2>
-            <div class="about-content">
-                <div class="about-main glass-card">
-                    <p>
-                        I'm a B.Tech Computer Science Engineering student with a strong interest in 
-                        Data Analytics and Machine Learning.
-                    </p>
-                    <p>
-                        I enjoy working with data — cleaning it, exploring patterns, and building models 
-                        that can solve real-world problems. Alongside ML, I actively work on strengthening 
-                        my core programming and frontend skills, because I believe good engineers understand 
-                        systems end-to-end.
-                    </p>
-                    <p>
-                        I'm consistent with DSA problem-solving, have solved 100+ problems on LeetCode, and 
-                        love learning by building projects rather than just following tutorials.
-                    </p>
-                    <p class="about-final">
-                        Currently, I'm looking for internship opportunities where I can apply my skills, 
-                        learn from real-world challenges, and grow as a software engineer.
-                    </p>
-                </div>
-                <div class="highlight-grid">
-                    <div class="highlight-card glass-card">
-                        <div class="highlight-icon"></div>
-                        <h3>Data Analysis & Visualization</h3>
-                    </div>
-                    <div class="highlight-card glass-card">
-                        <div class="highlight-icon"></div>
-                        <h3>Machine Learning Fundamentals</h3>
-                    </div>
-                    <div class="highlight-card glass-card">
-                        <div class="highlight-icon"></div>
-                        <h3>Problem Solving & DSA</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="section">
-        <div class="container">
-            <h2 class="section-title gradient-text">Education</h2>
-            <div class="education-content">
-                <div class="education-main glass-card">
-                    <div class="education-header">
-                        <h3>Bachelor of Technology (B.Tech)</h3>
-                        <p class="education-field">Computer Science Engineering</p>
-                        <p class="education-year">2023 – 2027</p>
-                    </div>
-                    <div class="education-body">
-                        <p class="education-intro">Strong foundation in:</p>
-                        <ul class="education-list">
-                            <li>Data Structures & Algorithms</li>
-                            <li>Databases and SQL</li>
-                            <li>Object-Oriented Programming</li>
-                        </ul>
-                        <p class="education-activity">
-                            Actively participating in tech events, webinars, and self-driven learning
-                        </p>
-                        <p class="education-focus">
-                            Focused on practical implementation through projects
-                        </p>
-                        <p class="education-footer">
-                            Consistently working on improving problem-solving, coding efficiency, 
-                            and analytical thinking.
-                        </p>
-                    </div>
-                </div>
+            <div class="about-main glass-card">
+                <p>
+                    I am a B.Tech Computer Science Engineering student with a strong interest in Data Analytics and Machine Learning.
+                </p>
+                <p>
+                    I enjoy working with data, cleaning it, exploring patterns, and building models
+                    that can solve real-world problems. Alongside ML, I actively work on strengthening
+                    my core programming skills, because I believe good engineers understand
+                    systems end-to-end.
+                </p>
+                <p>
+                    I am consistent with DSA problem-solving, have solved 500+ problems on LeetCode, and
+                    love learning by building projects rather than just following tutorials.
+                </p>
+                <p class="about-final">
+                    Currently, I am looking for internship opportunities where I can apply my skills,
+                    learn from real-world challenges, and grow as a software engineer.
+                </p>
             </div>
         </div>
     </section>
@@ -125,76 +73,88 @@
         <div class="container">
             <h2 class="section-title gradient-text">Projects</h2>
             <div class="projects-grid">
-                <div class="project-card glass-card">
-                    <div class="project-icon"></div>
-                    <h3>Customer Churn Prediction</h3>
-                    <ul class="project-description">
-                        <li>Built an ML model to predict customer churn using real-world data</li>
-                        <li>Performed data cleaning, EDA, feature selection, and model evaluation</li>
-                    </ul>
+                <div class="project-card glass-card" onclick="window.open('https://github.com/ShireenKachroo/CUSTOMER_CHURN_ANALYSIS', '_blank')">
+                    <h3>Customer Churn Analysis</h3>
+                    <br>
+                        <p>Built an end-to-end Machine Learning project that predicts customer churn using structured customer data.
+                            The project covers the complete ML lifecycle, from data preprocessing and feature engineering to model training,
+                            evaluation, and deployment with a Flask-based web interface.</p>
                     <div class="project-tech">
                         <span class="tech-tag">Python</span>
                         <span class="tech-tag">Pandas</span>
-                        <span class="tech-tag">NumPy</span>
                         <span class="tech-tag">scikit-learn</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">GitHub →</a>
-                        <a href="#" class="project-link">Live Demo →</a>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Render (deployment)</span>
                     </div>
                 </div>
 
-                <div class="project-card glass-card">
-                    <div class="project-icon"></div>
-                    <h3>Data Analytics Dashboard</h3>
-                    <ul class="project-description">
-                        <li>Analyzed datasets to extract meaningful insights</li>
-                        <li>Created visualizations to present trends and patterns</li>
-                    </ul>
+                <div class="project-card glass-card" onclick="window.open('https://github.com/ShireenKachroo/ML-Based-Misinformation-Detection-and-Spread-Analysis-using-SNA', '_blank')">
+                    <h3>ML Based Misinformation Detection & Spread Analysis Using SNA</h3><br>
+                    <p>This project combines machine learning and Social Network Analysis to
+                        detect misinformation and simulate its spread using an SIR model,
+                        providing insights into how misinformation originates, propagates, and can be mitigated online.</p>
                     <div class="project-tech">
                         <span class="tech-tag">Python</span>
-                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Pandas</span>
                         <span class="tech-tag">Matplotlib</span>
-                        <span class="tech-tag">Seaborn</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">GitHub →</a>
-                        <a href="#" class="project-link">Live Demo →</a>
+                        <span class="tech-tag">scikit-learn</span>
+                        <span class="tech-tag">NetworkX</span>
+                        <span class="tech-tag">Beautiful-Soup</span>
                     </div>
                 </div>
 
-                <div class="project-card glass-card">
-                    <div class="project-icon"></div>
-                    <h3>Web-Based Mini Games</h3>
-                    <ul class="project-description">
-                        <li>Developed interactive games: Guess the Number, Rock Paper Scissors, Tic Tac Toe</li>
-                        <li>Focused on clean UI, logic, and user experience</li>
-                    </ul>
+                <div class="project-card glass-card" onclick="window.open('https://github.com/ShireenKachroo/YouTube-Watch-History-Analysis-User-Behavior-Insights-Using-Data-Analytics-Machine-Learning', '_blank')">
+                    <h3>YouTube Watch History Analysis</h3><br>
+                    <p>Built a privacy-aware, end-to-end data analytics and machine learning project
+                        that analyzes personal YouTube watch history data to uncover viewing patterns,
+                        behavioral trends, and user personas using exploratory data analysis, feature engineering,
+                        and unsupervised learning.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Matplotlib</span>
+                        <span class="tech-tag">scikit-learn</span>
+                        <span class="tech-tag">Microsoft Power BI</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" onclick="window.open('https://github.com/ShireenKachroo/Indian-Fashion-Analytics', '_blank')">
+                    <h3>Indian Fashion Analytics Dashboard</h3><br>
+                    <p>This project presents an end-to-end data analytics workflow to analyze Indian fashion trends
+                        using real e-commerce data from Myntra. The goal is to uncover insights related to brand popularity,
+                        gender-based preferences, price segmentation, and color trends, and prepare a clean dataset for BI dashboarding.
+                        The project focuses on data cleaning, exploratory data analysis (EDA), 
+                        visualization, and dashboard-ready data preparation.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Matplotlib</span>
+                        <span class="tech-tag">EDA</span>
+                        <span class="tech-tag">Microsoft Power BI</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" onclick="window.open('https://shireenkachroo.github.io/Mysterious-Number/', '_blank')">
+                    <h3>Mysterious Number Game</h3><br>
+                    <p>Mysterious-Number is an interactive web-based game where players try to guess a hidden number between
+                        1 and 100 within a limited number of attempts. The game provides feedback after each guess
+                        to indicate how close the player’s guess is to the hidden number.</p>
                     <div class="project-tech">
                         <span class="tech-tag">HTML</span>
                         <span class="tech-tag">CSS</span>
                         <span class="tech-tag">JavaScript</span>
                     </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">GitHub →</a>
-                        <a href="#" class="project-link">Live Demo →</a>
-                    </div>
                 </div>
 
-                <div class="project-card glass-card">
-                    <div class="project-icon"></div>
-                    <h3>Travel Planner (C++ Project)</h3>
-                    <ul class="project-description">
-                        <li>Built a console-based travel planner using OOP concepts</li>
-                        <li>Implemented STL for efficient data handling</li>
-                    </ul>
+                <div class="project-card glass-card" onclick="window.open('https://github.com/ShireenKachroo/Travel-Planner-Cpp', '_blank')">
+                    <h3>Travel Planner</h3><br>
+                    <p>Travel-Planner-Cpp is a console-based application that allows users to plan their trips efficiently
+                        using the basic concepts of Object-Oriented Programming (OOP) in C++.
+                        The project demonstrates the use of classes, objects, and data encapsulation to manage travel-related information.</p>
                     <div class="project-tech">
                         <span class="tech-tag">C++</span>
                         <span class="tech-tag">STL</span>
-                        <span class="tech-tag">OOP</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">GitHub →</a>
+                        <span class="tech-tag">Object-Oriented Programming</span>
                     </div>
                 </div>
             </div>
@@ -206,114 +166,58 @@
         <div class="container">
             <h2 class="section-title gradient-text">Skills</h2>
             <div class="skills-grid">
-                <div class="skill-category glass-card">
-                    <h3>Programming Languages</h3>
-                    <div class="skill-items">
-                        <span class="skill-badge">C++</span>
-                        <span class="skill-badge">Python</span>
-                        <span class="skill-badge">JavaScript</span>
-                        <span class="skill-badge">SQL</span>
-                    </div>
-                </div>
-
-                <div class="skill-category glass-card">
-                    <h3>Data Analytics & ML</h3>
-                    <div class="skill-items">
-                        <span class="skill-badge">Data Cleaning & Preprocessing</span>
-                        <span class="skill-badge">Exploratory Data Analysis (EDA)</span>
-                        <span class="skill-badge">Machine Learning Basics</span>
-                        <span class="skill-badge">Model Evaluation</span>
-                    </div>
-                </div>
-
-                <div class="skill-category glass-card">
-                    <h3>Web Development</h3>
-                    <div class="skill-items">
-                        <span class="skill-badge">HTML5</span>
-                        <span class="skill-badge">CSS3</span>
-                        <span class="skill-badge">JavaScript</span>
-                        <span class="skill-badge">Responsive Design</span>
-                    </div>
-                </div>
-
-                <div class="skill-category glass-card">
-                    <h3>Tools & Platforms</h3>
-                    <div class="skill-items">
-                        <span class="skill-badge">Git & GitHub</span>
-                        <span class="skill-badge">VS Code</span>
-                        <span class="skill-badge">Jupyter Notebook</span>
-                        <span class="skill-badge">LeetCode</span>
-                        <span class="skill-badge">HackerRank</span>
-                    </div>
-                </div>
+                <span class="skill-badge">C++</span>
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">Matplotlib</span>
+                <span class="skill-badge">Pandas</span>
+                <span class="skill-badge">scikit-learn</span>
+                <span class="skill-badge">SQL</span>
+                <span class="skill-badge">Microsoft Excel</span>
+                <span class="skill-badge">Microsoft Power BI</span>
+                <span class="skill-badge">Data Cleaning</span>
+                <span class="skill-badge">EDA</span>
+                <span class="skill-badge">Machine Learning</span>
+                <span class="skill-badge">HTML5</span>
+                <span class="skill-badge">CSS3</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">GitHub</span>
+                <span class="skill-badge">Data Structures & Algorithms</span>
+                <span class="skill-badge">Object-Oriented Programming</span>
+                <span class="skill-badge">DBMS</span>
+                <span class="skill-badge">OS</span>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="section">
-  <div class="container">
-    <h2 class="section-title gradient-text">
-      Let's build something meaningful together
-    </h2>
-
-    <div class="contact-content">
-      <p class="contact-intro">
-        I'm open to internship opportunities, collaborations, and learning
-        experiences. Feel free to reach out if you'd like to connect or work
-        together.
-      </p>
-
-      <div class="contact-methods">
-        <!-- Email -->
-        <a href="mailto:shireen@example.com" class="contact-card glass-card">
-          <div class="contact-icon">
-            <i class="fa-solid fa-envelope"></i>
-          </div>
-          <div class="contact-info">
-            <div class="contact-label">Email</div>
-            <div class="contact-value">kachrooshireen3@gmail.com</div>
-          </div>
-        </a>
-
-        <!-- LinkedIn -->
-        <a
-          href="https://www.linkedin.com/in/shireen-kachroo-1b9347284/"
-          class="contact-card glass-card"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div class="contact-icon">
-            <i class="fa-brands fa-linkedin-in"></i>
-          </div>
-          <div class="contact-info">
-            <div class="contact-label">LinkedIn</div>
-            <div class="contact-value">
-              Shireen Kachroo
+        <div class="container">
+            <h2 class="section-title gradient-text">Let's build something meaningful together!</h2>
+            <div class="contact-methods-row">
+                <a href="mailto:kachrooshireen3@gmail.com" class="contact-card glass-card">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="contact-info">
+                        <div class="contact-label">Email</div>
+                        <div class="contact-value">kachrooshireen3@gmail.com</div>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/shireen-kachroo-1b9347284/" target="_blank" class="contact-card glass-card">
+                    <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <div class="contact-info">
+                        <div class="contact-label">LinkedIn</div>
+                        <div class="contact-value">Shireen Kachroo</div>
+                    </div>
+                </a>
+                <a href="https://github.com/ShireenKachroo" target="_blank" class="contact-card glass-card">
+                    <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                    <div class="contact-info">
+                        <div class="contact-label">GitHub</div>
+                        <div class="contact-value">ShireenKachroo</div>
+                    </div>
+                </a>
             </div>
-          </div>
-        </a>
-
-        <!-- GitHub -->
-        <a
-          href="https://github.com/ShireenKachroo"
-          class="contact-card glass-card"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div class="contact-icon">
-            <i class="fa-brands fa-github"></i>
-          </div>
-          <div class="contact-info">
-            <div class="contact-label">GitHub</div>
-            <div class="contact-value">ShireenKachroo</div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
