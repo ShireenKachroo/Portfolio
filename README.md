@@ -1,3 +1,2 @@
-This is my first Web Dev Project: A simple personal portfolio website using HTML and CSS.
-<br>
-Author: Shireen Kachroo
+This is a simple personal portfolio website showcasing my skills. 
+<br>It is created using HTML, CSS and JavaScript.
